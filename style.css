@@ -1,0 +1,44 @@
+:root{
+    --bg_color:beige;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    background-color:var(--bg_color);
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 5px;
+    align-content: flex-end;
+}
+.nav_list li{
+    padding: 5px;
+}
+.nav_list li a{
+    text-decoration: none;
+}
+.nav_list li:hover{
+    background-color: rgba(255, 0, 0, 0.322);
+}
+.home{
+    display: flex;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--bg_color);
+    border: 2px solid black;
+
+}
+.home .dp{
+    margin: 10px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+manas{
+    background-color: red;
+    color: yellow;
+}
